@@ -1,4 +1,4 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>Talentos adquiridos</title>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>Casos de neuropsicología</title>
 <style>
 :root{--bg:#14213d;--ink:#f7f2e8;--line:rgba(247,242,232,.28)}
 *{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;touch-action:none;overscroll-behavior:none}
@@ -17,8 +17,8 @@ small{opacity:.78;font-size:12px}
 details{font-size:12px;background:rgba(20,33,61,.82);border-radius:8px;padding:6px 10px}a{color:inherit}
 #prog{height:6px;border-radius:3px;background:var(--line);overflow:hidden}#bar{height:100%;width:0;background:var(--ink)}#time{font-size:14px;text-align:right;background:rgba(20,33,61,.82);border-radius:6px;padding:2px 8px;align-self:flex-end}#note{align-self:flex-start;background:rgba(20,33,61,.82);border-radius:6px;padding:5px 10px;font-weight:600}#who{font:700 22px Georgia,serif;align-self:flex-start;background:rgba(20,33,61,.82);border-radius:6px;padding:3px 10px}#player{display:flex;flex-direction:column;gap:8px}#player[hidden],#act2[hidden],#txtbtn[hidden]{display:none}#script{max-height:34vh;overflow:auto;background:rgba(20,33,61,.9);border-radius:8px;padding:10px 12px;font-size:15px;touch-action:pan-y}#hud{max-height:100%;}</style></head><body>
 <div id="stage"></div>
-<div id="intro"><h1>Talentos adquiridos</h1>
-<ol><li>Toca «Empezar» y permite el uso de la cámara.</li><li>Sube el volumen del celular.</li><li>Apunta a una lámina completa: Anne Adams, Tommy McHugh u Orlando Serrell.</li></ol>
+<div id="intro"><h1>Casos de neuropsicología</h1>
+<ol><li>Toca «Empezar» y permite el uso de la cámara.</li><li>Sube el volumen del celular.</li><li>Apunta a una de las seis láminas, de modo que se vea completa.</li></ol>
 <button id="start">Empezar</button><small>La imagen de la cámara se procesa en tu celular y no se envía a ningún lado.</small></div>
 <div id="hint" hidden></div>
 <div id="hud" hidden>
@@ -27,7 +27,7 @@ details{font-size:12px;background:rgba(20,33,61,.82);border-radius:8px;padding:6
 <div id="player" hidden><div id="prog"><div id="bar"></div></div><div id="time">0:00</div><div class="row"><button id="play" class="ghost">Pausar</button><button id="again" class="ghost">Desde el inicio</button></div></div>
 <div class="row"><button id="less" class="ghost" aria-label="Achicar cerebro" style="flex:0 0 52px">−</button><button id="act">Acción</button><button id="more" class="ghost" aria-label="Agrandar cerebro" style="flex:0 0 52px">+</button></div>
 <div class="row"><button id="act2" class="ghost" hidden></button><button id="txtbtn" class="ghost">Leer guion</button></div>
-<details><summary>Créditos y fuentes</summary>Modelo: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy">Z-Anatomy</a> (CC BY-SA 4.0), basado en BodyParts3D y <a href="https://brainder.org/research/brain-for-blender/">Brain for Blender</a> de A. M. Winkler (CC BY-SA 3.0), adaptado por <a href="https://github.com/authorOd/3d-anatomy-atlas">Svitylo 3D Anatomy Atlas</a>. Modificado: selección de estructuras, transparencia y simplificación. Compartido bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Las zonas son aproximaciones sobre un cerebro modelo. Casos: Seeley et al., Brain 2008; Lythgoe et al., Neurology 2005.</details>
+<details><summary>Créditos y fuentes</summary>Modelo: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy">Z-Anatomy</a> (CC BY-SA 4.0), basado en BodyParts3D y <a href="https://brainder.org/research/brain-for-blender/">Brain for Blender</a> de A. M. Winkler (CC BY-SA 3.0), adaptado por <a href="https://github.com/authorOd/3d-anatomy-atlas">Svitylo 3D Anatomy Atlas</a>. Modificado: selección de estructuras, transparencia y simplificación. Compartido bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Las zonas son aproximaciones sobre un cerebro modelo. Casos: Seeley et al., Brain 2008; Lythgoe et al., Neurology 2005; Annese et al., Nature Communications 2014; Cooperrider et al., presentación SfN 2012; Sacks, The Mind's Eye, 2010.</details>
 </div>
 <audio id="audio" preload="auto" playsinline></audio>
 <script src="app.js"></script></body></html>
