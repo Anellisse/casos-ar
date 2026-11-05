@@ -1,0 +1,3 @@
+Modelo: Z-Anatomy (CC BY-SA 4.0), basado en BodyParts3D y Brain for Blender de A. M. Winkler (CC BY-SA 3.0), adaptado por Svitylo 3D Anatomy Atlas (https://github.com/authorOd/3d-anatomy-atlas).
+Cambios: seleccion de estructuras, zonas destacadas, transparencia y simplificacion. Adaptacion compartida bajo CC BY-SA 4.0.
+Motor: MindAR (MIT) y three.js (MIT). Laminas: creadas para este proyecto, inspiradas en cada caso, sin obras ni fotos originales.
